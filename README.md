@@ -1,6 +1,4 @@
-[module_3_2.txt](https://github.com/user-attachments/files/16644884/module_3_2.txt)# module3_2
-[Uploading modudef 
-send_email(message, recipient, sender = "university.help@gmail.com"):
+def send_email(message, recipient, sender = "university.help@gmail.com"):
     valid_domains = ('.com', '.ru', '.net')
     if ("@" not in sender or not sender.endswith(valid_domains)) or \
             ("@" not in recipient or not recipient.endswith(valid_domains)):
@@ -18,4 +16,4 @@ send_email('Это сообщение для проверки связи', 'vasy
 send_email('Вы видите это сообщение как лучший студент курса!', 'urban.fan@mail.ru', sender='urban.info@gmail.com')
 send_email('Пожалуйста, исправьте задание', 'urban.student@mail.ru', sender='urban.teacher@mail.uk')
 send_email('Напоминаю самому себе о вебинаре', 'urban.teacher@mail.ru', sender='urban.teacher@mail.ru')
-le_3_2.txt…]()
+[module_3_2.txt](https://github.com/user-attachments/files/16644887/module_3_2.txt)
